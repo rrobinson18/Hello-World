@@ -1,0 +1,11 @@
+body{
+  background-color: Teal;
+}
+
+nav {
+  display: inline-block;
+}
+
+p {
+  font: white;
+}
