@@ -130,3 +130,11 @@ width: 100vw;
   border-color: Teal;
   border-spacing: 10px;
 }
+
+#greeter {
+  background: lightblue;
+}
+
+#greeter p {
+  color: purple;
+}
