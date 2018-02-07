@@ -9,12 +9,74 @@
 </head>
 <body>
   <center>
-    <div id="nav">
+    <div class="navigation">
+      <ul class="container">
       <a href="..\index.html">Home</a>
+      <li>
       <a href="..\projects\index.html">Projects</a>
+      <ul class="dropdown">
+        <li><a href="#">First Project</a></li>
+        <li><a href="#">Second Project</a></li>
+        <li><a href="#">Third Project</a></li>
+      </ul>
+    </li>
       <a href="..\media\index.html">Media</a>
       <a href="..\blog\index.html">Blog</a>
+      <a href="..\contact\index.html">Contact</a>
   </div>
   </center>
+
+
+<center><h1>Contact</h1></center>
+
+<!--
+The action attribute defines where on the server the form data should be sent
+The method attribute specifies the HTTP method (GET or Post)
+-->
+
+<form action="form-responses/new" method="POST">
+<div id="form1">
+  <input type="text" name="firstname" value="First Name" size="50 autofocus"><br>
+  <input type="text" name="lastname" value="Last Name" size="50"><br>
+  <input type="email" name="userEmail" placeholder="your.email@example.com" size="50"> <br>
+</div>
+<div id="form2">
+  <label>What's this message about?<br>
+    <input type="radio" name="subject" value="professional" checked><span>I'd like to hire you!</span><br>
+    <input type="radio" name="subject" value="personal" checked><span>Personal message</span><br>
+    <input type="radio" name="subject" value="other" checked><span>Don't know/something else</span><br>
+  </label>
+</div>
+
+<div id="form3">
+  <input type="checkbox" name="optin" value="trusting" checked>Subscribe me to your newsletter!<br>
+  <input type="checkbox" name="optout" value"skeptical" disabled>Cheeky checkbox...<br>
+</div>
+
+<div id="form4">
+  <label for="marketing">How did you year about me?</label><br>
+  <select name="marketing">
+    <optgroup label="Online"><br>
+      <option value="social">Social Media (FB, Twitter, LinkedIn)</option><br>
+      <option value="github">Online Portfolio (GitHub)</option><br>
+      <option value="search">Search Engine</option><br>
+      <option value="email">Email</option><br>
+    </optgroup>
+    option value="other">Other</option><br>
+    <select><br>
+    </div>
+
+<div id="form5">
+      <textarea name="user_message" rows="8" cols="40">Please enter a message</textarea><br>
+      <input type="submit">
+    </form>
+  </div>
+
+
+
+
 </body>
+<foot>
+  <p>&copy; 2018 Rakesha McIntyre</p>
+</footer>
 </html>
