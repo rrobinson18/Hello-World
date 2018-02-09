@@ -6,4 +6,4 @@ name = prompt('What is your name, for real this time?');
   }
 }
 checkName();
-alert('Hello' + name);
+alert('Hello ' + name);
