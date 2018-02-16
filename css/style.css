@@ -5,12 +5,12 @@
 body{
 background-color: #003366;
 font-family: cursive;
-//*background-image: url("https://i.pinimg.com/736x/be/cc/83/becc83266090dc4740cdd610dd6df2dd--african-american-art-african-art.jpg");*//
+//*background-image: url("https://i.pinimg.com/736x/be/cc/83/becc83266090dc4740cdd610dd6df2dd--african-american-art-african-art.jpg");
 color: white;
 width: 1300px;
 border: 25px solid white;
 padding: 25px;
-margin: 25px;
+margin: 25px; *//
 }
 
 html {

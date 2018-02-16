@@ -1,6 +1,6 @@
 
 // alert("Hello World");
-var weaponOfChoice = prompt("Your walk into a castle and there is a army after you. You can only choose between three weapons. Which do you choose? A sword, dragon, direwolf, or just die?");
+var weaponOfChoice = prompt("You walk into a castle and there is a army after you. You can only choose between three weapons. Which do you choose? A sword, dragon, direwolf, or just die?");
 
 if(weaponOfChoice === "sword"){
       weaponOfChoice = prompt("I hope you can fight because, you're as good as dead!");
