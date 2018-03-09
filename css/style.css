@@ -1,27 +1,24 @@
-{
-  border: 1px solid red;
+body {
+font-family: cursive;
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzDo4yfqO1CtDx51xoW6dJP-rG8Pw8N-_ljNGXMRcUGbzvb5OR-A");
+background-attachment: fixed;
+box-sizing: border-box;
+border-style: solid;
+color: white;
+padding: 10px;
+
 }
 
-body{
-background-color: #003366;
-font-family: cursive;
-//*background-image: url("https://i.pinimg.com/736x/be/cc/83/becc83266090dc4740cdd610dd6df2dd--african-american-art-african-art.jpg");
-color: white;
-width: 1300px;
-border: 25px solid white;
-padding: 25px;
-margin: 25px; *//
-}
 
 html {
   box-sizing: border-box;
   margin: 10px;
   color: white;
   float: none;
+
 }
 
 img{
-
   border-radius: 150px;
   padding: 15px;
   margin:10px
@@ -42,9 +39,6 @@ h1 {
   padding: 30px;
 }
 
-.navigation{
-}
-
 .navigation {
 position: relative;
 top: 0;
@@ -53,19 +47,10 @@ height: auto;
 width: 100vw;
 }
 
-.navigation .dropdown {
-  display: none;
-}
-
-.navigation a:hover + .dropdown {
-  display: block;
-  background-color:
-}
 
 .navigation a {
   box-sizing: border-box;
-  border-style: solid;
-  border-color: white;
+
   color: white;
   padding: 10px;
 }
@@ -77,15 +62,17 @@ width: 100vw;
 }
 
 .navigation .dropdown{
-  position: absolute;
-  top: 1em;
-  right: 0;
   display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
 }
 
 .navigation a:hover + .dropdown{
-  display: block;
-  background-color: #003366;
+display: block;
+
 }
 
 .navigation > ul.container {
@@ -136,17 +123,14 @@ li {
   text-align: center;
 }
 
-#socialmedia a:link, a:visited {
-  background-color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-
 #content{
   border-style: solid;
-  border-color: Teal;
+  background-color: white;
+  color: grey;
+  opacity: 0.5;
+  width: 450px;
+  height: 250px;
+  border-radius: 10px;
   border-spacing: 10px;
 }
 
@@ -161,4 +145,44 @@ li {
 
 #contactinfo {
   color: white;
+}
+
+.highligted {
+  background opacity: 0.5%;
+  color: purple;
+}
+
+#hidden-blurb{
+  display: none;
+}
+
+.fa {
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  color: blue;
+}
+
+.fa-linkedin {
+  color: blue;
+}
+
+.fa-github{
+  color: blue;
+}
+
+.fa-envelope {
+  color: blue;
+}
+
+.fa-phone {
+  color: blue;
 }

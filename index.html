@@ -5,78 +5,72 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Rakesha McIntyre Web Developer</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link type="text/css" rel="stylesheet" href="css/style.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 </head>
 <body>
-<ul>
 
-
-    <div class="navigation">
-      <ul class="container">
-      <a href="..\index.html">Home</a>
-      <li>
-      <a href="..\projects\index.html">Projects</a>
-      <ul class="dropdown">
-        <li><a href="#">First Project</a></li>
-        <li><a href="#">Second Project</a></li>
-        <li><a href="#">Third Project</a></li>
-      </ul>
-    </li>
-    <a href="..\media\index.html">Media</a>
-    <a href="..\blog\index.html">Blog</a>
-    <a href="..\contact\index.html">Contact</a>
-</div>
-
-<hr>
-<!--
-<div id="background" class="img">
-  <img src="https://i.pinimg.com/736x/be/cc/83/becc83266090dc4740cdd610dd6df2dd--african-american-art-african-art.jpg"/>
-</div>
--->
-
-
-<div class="bg-1">
-  <div class="container text-cente">
-    <h1>Rakesha McIntyre</h1>
-    <img src="https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAh0AAAAJDlmZjYxYTkyLTU2NjUtNDQ1ZC04Njc5LWM5NjAwZmFjZjY3Zg.jpg">
-    <h2>Welcome to my Portfolio Page</h2>
+  <div class="navigation">
+    <ul class="container">
+    <a href="..\index.html" class="btn" role="button">Home</a>
+    <li>
+    <a href="..\projects\index.html" class="btn dropdown-toggle" role="button" data-toggle="dropdown">Projects</a>
+    <ul class="dropdown">
+      <li><a href="#">Class Showcase</a></li>
+      <li><a href="#">CYOA</a></li>
+      <li><a href="#">Web Store Hack-A-Thon</a></li>
+    </ul>
+  </li>
+    <a href="..\media\index.html" class="btn" role="button">Media</a>
+    <a href="..\blog\index.html" class="btn" role="button">Blog</a>
+    <a href="..\contact\index.html" class="btn" role="button">Contact</a>
   </div>
-</div>
-
-<h2>Welcome to my Portfolio Page<h2>
+  <hr>
 
 
-<div id="stylesheet">
+<div class="column middle">
+  <center>
+    <h1>Rakesha McIntyre</h1>
+
+    <img src="https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAh0AAAAJDlmZjYxYTkyLTU2NjUtNDQ1ZC04Njc5LWM5NjAwZmFjZjY3Zg.jpg" id="profile-pic">
+
+
+  <h2 id="hidden-blurb"> Welcome to my Portfolio Page</h2>
+  </center>
+  </div>
+
+
+  <center><div id="content">
 <center><h3>Fun Facts</h3></center>
   <ol>
     <li>I love going to the movies</li>
     <li>I love to read</li>
     <li>My favorite show is Modern Family and Game of Thrones</li>
     <li>I am also studying to get my A+ Certification</li>
-  </div>
-<hr>
+  </center></div>
 
-<center>
-<div id="socialmedia">
-<h3>You can find me on Social Media at the links below:</h3>
-  <ul>
-    <li><a href="https://github.com/rrobinson18">Github</a></li>
-    <li><a href="https://www.linkedin.com/in/rakesha-mcintyre-345032134/">Linkedin</a></li>
-    <li><a href="https://www.facebook.com/rakesha.robinson">Facebook</a></li>
-  </ul>
+
+<div>
+  <h3>Social Media:</h3>
+
+    <a href="https://github.com/rrobinson18" class="fa fa-github"></a>
+    <a href="https://www.linkedin.com/in/rakesha-mcintyre-345032134/" class="fa fa-linkedin"></a>
+    <a href="https://facebook.com/rakesha.robinson" class="fa fa-facebook"></a>
+    <a href="mailto:robinson.rakesha@gmail.com" class="fa fa-envelope"></a>
+    <a href="tel:423-598-0351" class="fa fa-phone"></a>
 </div>
-</center>
-
-<div id="contactinfo">
-<a href="mailto:robinson.rakesha@gmail.com">Contact Me</a>
-<a href="tel:555-555-5555">My Real phone number.</a>
 </div>
 
+
+
+<script type="text/javascript" src="home.js"></script>
 <script type="text/javascript" src="cyoa2.js"></script>
 
 </body>
 
 <footer>
-<p>&copy; 2018 Rakesha McIntyre<p>
+<p>&copy; 2018 Rakesha McIntyre</p>
 </footer>
 </html>

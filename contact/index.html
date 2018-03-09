@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link type="text/css" rel="stylesheet" href="../css/style.css"/>
   <title>Rakesha McIntyre | Contact</title>
 </head>
@@ -11,21 +12,22 @@
 
     <div class="navigation">
       <ul class="container">
-      <a href="..\index.html">Home</a>
+      <a href="..\index.html" class="btn" role="button">Home</a>
       <li>
-      <a href="..\projects\index.html">Projects</a>
+      <a href="..\projects\index.html" class="btn dropdown-toggle" role="button" data-toggle="dropdown">Projects</a>
       <ul class="dropdown">
-        <li><a href="#">First Project</a></li>
-        <li><a href="#">Second Project</a></li>
-        <li><a href="#">Third Project</a></li>
+        <li><a href="#">Class Showcase</a></li>
+        <li><a href="#">CYOA</a></li>
+        <li><a href="#">Web Store Hack-A-Thon</a></li>
       </ul>
     </li>
-      <a href="..\media\index.html">Media</a>
-      <a href="..\blog\index.html">Blog</a>
-      <a href="..\contact\index.html">Contact</a>
+      <a href="..\media\index.html" class="btn" role="button">Media</a>
+      <a href="..\blog\index.html" class="btn" role="button">Blog</a>
+      <a href="..\contact\index.html" class="btn" role="button">Contact</a>
   </div>
-  
+
   <hr>
+<ul id="contact-list"></ul>
 
 <center><h1>Contact</h1></center>
 
@@ -54,7 +56,7 @@ The method attribute specifies the HTTP method (GET or Post)
 </div>
 
 <div id="form4">
-  <label for="marketing">How did you year about me?</label><br>
+  <label for="marketing">How did you hear about me?</label><br>
   <select name="marketing">
     <optgroup label="Online"><br>
       <option value="social">Social Media (FB, Twitter, LinkedIn)</option><br>
@@ -74,9 +76,9 @@ The method attribute specifies the HTTP method (GET or Post)
 
 
 
-
+<script type="text/javascript" src="contact.js"></script>
 </body>
-<foot>
+<footer>
   <p>&copy; 2018 Rakesha McIntyre</p>
 </footer>
 </html>
